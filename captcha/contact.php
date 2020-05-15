@@ -63,7 +63,7 @@ $headers .= "Reply-To: $email_address";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=utf-8\r\n";
 
-mail("ch.bensch@gmx.de",$email_subject,$email_body,$headers); // Send E-Mail to this address
+mail("my.email@myhost.url",$email_subject,$email_body,$headers); // recipient!! Send E-Mail to this address
 
 echo "true"; 
 return true;      
